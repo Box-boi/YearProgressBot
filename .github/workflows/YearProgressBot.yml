@@ -20,7 +20,7 @@ jobs:
        - name: Setup Configs
          run: |
               source config.txt
-              expor GIT_EMAIL="${{ secrets.GIT_EMAIL }}"
+              export GIT_EMAIL="${{ secrets.GIT_EMAIL }}"
               export TG_TOKEN="${{ secrets.TG_TOKEN }}"
               export GIT_TOKEN="${{ secrets.GIT_TOKEN }}"
               export GIT_USERNAME="${{ secrets.GIT_USERNAME }}"
