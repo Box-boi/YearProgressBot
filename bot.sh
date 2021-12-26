@@ -47,7 +47,7 @@ telegram_message() {
 	do
 	echo ${CHAT_ID}
 	echo ${BAR_TEXT_PERCENTAGE}
-	curl -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" -d "chat_id=${CHAT_ID}&text=${BAR_TEXT_PERCENTAGE}"
+	curl -X POST "https://api.telegram.org/bot${5070501422:AAFqmHTVuWQnEOUESPWSChdNiufPIRX2-cY}/sendMessage" -d "chat_id=${CHAT_ID}&text=${BAR_TEXT_PERCENTAGE}"
 	done
 }
 
