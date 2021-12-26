@@ -18,8 +18,8 @@ GIT_EMAIL : Preferably Your Private GitHub Email, Get It From "Settings/Emails"-
 GIT_USERNAME : Preferably Your GitHub Username, Although It Could Be Anything
 ```
 2. Fill The Values In config.txt:
-- Example Of `CHAT_IDS`: CHAT_IDS="-1001642062053 -1001199512844 -1001387925474"
-- Example Of `LENGTH`: LENGTH=20
+- Example Of CHAT_IDS: `CHAT_IDS="-1001642062053 -1001199512844 -1001387925474"`
+- Example Of LENGTH: `LENGTH=20`
 
 3. Make Sure Actions Are Enabled In GitHub:
 - To Do This, Visit The "Actions" Tab Of Heroku
@@ -40,6 +40,8 @@ Features Nobody Asked For
 ----------
 
 - Multiple Telegram Bots. For Some Unknown Reason, You Can Add Multiple Bot Tokens In The GitHub Secret Of `TG_TOKEN` And The Message Would Be Sent By All The Bots(As Long As They're In The Group(s)/Channel(s))
+- The Syntax Follows: "<Token1> <Token2> <Token3> ..."
+Example: `5070501422:AAFqmHTVuWQnEO7bhbvghubbbiufPIRX2-cY 7666262877:AaqILoveHentai7ygsgbbsyyAhsysvs-zY 5072701422:AAVuWQnILoveAnimeNiufPIRX2-cz`
 
 -------
 
@@ -51,7 +53,7 @@ Why Does This Bot Exist?
 -------
 
 ## **Warnings :**
-- This Bot/Script Uses GitHub Actions, Although Running One Lightweight Action Once In Three Days, Is In No Way Considered Abuse Of It. You Are Still Warned Of Account Suspension(If You Reduce The Cron-Job Frequency)(If You Already Have A Billion Other Consecutive GitHub Actions Running[Although GitHub Allows Only 20 Concurrent Jobs Per Account)
+- This Bot/Script Uses GitHub Actions, Although Running One Lightweight Action Once In Three Days, Is In No Way Considered Abuse Of It. You Are Still Warned Of Account Suspension(If You Reduce The Cron-Job Frequency)(If You Already Have A Billion Other Consecutive GitHub Actions Running[Although GitHub Allows Only 20 Concurrent Jobs Per Account])
 
 ## **Credits :**
   * **RedL0tus** : [Github](https://github.com/RedL0tus/YearProgressBot)
