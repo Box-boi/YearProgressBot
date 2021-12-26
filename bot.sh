@@ -42,12 +42,14 @@ display() {
 telegram_message() {
         source config.txt
 	echo ${CHAT_IDS}
-	echo "Telegram Message Started"
+	echo "Sending Telegram Message"
+	echo "Current Percentage Is: ${BAR_TEXT_PERCENTAGE}"
 	for CHAT_ID in ${CHAT_IDS}
 	do
-	echo ${CHAT_ID}
-	echo ${BAR_TEXT_PERCENTAGE}
-	curl -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" -d "chat_id=${CHAT_ID}&text=${BAR_TEXT_PERCENTAGE}"
+	   for TG_TOKEN_INDIVIDUAL in ${TG_TOKEN}
+	   echo "Chat ID is: ${CHAT_ID}"
+	   curl -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" -d "chat_id=${CHAT_ID}&text=${BAR_TEXT_PERCENTAGE}"
+	   done
 	done
 }
 
