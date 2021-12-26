@@ -40,8 +40,8 @@ Features Nobody Asked For
 ----------
 
 - Multiple Telegram Bots. For Some Unknown Reason, You Can Add Multiple Bot Tokens In The GitHub Secret Of `TG_TOKEN` And The Message Would Be Sent By All The Bots(As Long As They're In The Group(s)/Channel(s))
-- The Syntax Follows: "<Token1> <Token2> <Token3> ..."
-Example: `5070501422:AAFqmHTVuWQnEO7bhbvghubbbiufPIRX2-cY 7666262877:AaqILoveHentai7ygsgbbsyyAhsysvs-zY 5072701422:AAVuWQnILoveAnimeNiufPIRX2-cz`
+- The Syntax Follows: "$TOKEN1 $TOKEN2 $TOKEN3 ..."
+Example: `TG_TOKEN` : `5070501422:AAFqmHTVuWQnEO7bhbvghubbbiufPIRX2-cY 7666262877:AaqILoveHentai7ygsgbbsyyAhsysvs-zY 5072701422:AAVuWQnILoveAnimeNiufPIRX2-cz`
 
 -------
 
