@@ -35,3 +35,16 @@ Common Issues
 - Your Git-Token Expired. Make Sure To Make A Token Of Infinite Duration
 
 -------
+
+Features Nobody Asked For
+----------
+
+- Multiple Telegram Bots. For Some Unknown Reason, You Can Add Multiple Bot Tokens In The GitHub Secret Of `TG_TOKEN` And The Message Would Be Sent By All The Bots(As Long As They're In The Group(s)/Channel(s))
+
+-------
+
+## **Warnings :**
+- This Bot/Script Uses GitHub Actions, Although Running One Lightweight Action Once In Three Days, Is In No Way Considered Abuse Of It. You Are Still Warned Of Account Suspension(If You Reduce The Cron-Job Frequency)(If You Already Have A Billion Other Consecutive GitHub Actions Running[Although GitHub Allows Only 20 Concurrent Jobs Per Account)
+
+## **Credits :**
+  * **RedL0tus** : [Github](https://github.com/RedL0tus/YearProgressBot)
