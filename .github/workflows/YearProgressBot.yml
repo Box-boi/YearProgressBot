@@ -21,10 +21,10 @@ jobs:
        - name: Setup Configs
          run: |
               source config.txt
-              GIT_EMAIL="${{ secrets.GIT_EMAIL }}"
+              expor GIT_EMAIL="${{ secrets.GIT_EMAIL }}"
               export TG_TOKEN="${{ secrets.TG_TOKEN }}"
-              GIT_TOKEN="${{ secrets.GIT_TOKEN }}"
-              GIT_USERNAME="${{ secrets.GIT_USERNAME }}"
+              export GIT_TOKEN="${{ secrets.GIT_TOKEN }}"
+              export GIT_USERNAME="${{ secrets.GIT_USERNAME }}"
               if [[ "${TG_TOKEN}" == "" ]]; then echo 'TG Token not set, Exiting...' && exit 1 ; fi
               if [[ "${GIT_TOKEN}" == "" ]]; then echo 'GIT Token not set, Exiting...' && exit 1 ; fi
               if [[ "${GIT_USERNAME}" == "" ]]; then echo 'GIT Username not set, Exiting...' && exit 1 ; fi
