@@ -40,6 +40,8 @@ display() {
 }
 
 telegram_message() {
+        source config.txt
+	echo "Telegram Message Started"
 	for CHAT_ID in ${CHAT_IDS}
 	do
 	curl -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" -d "chat_id=${CHAT_ID}&text=${BAR_TEXT_PERCENTAGE}"
