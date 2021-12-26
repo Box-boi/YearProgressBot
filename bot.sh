@@ -41,6 +41,7 @@ display() {
 
 telegram_message() {
         source config.txt
+	echo ${CHAT_IDS}
 	echo "Telegram Message Started"
 	for CHAT_ID in ${CHAT_IDS}
 	do
