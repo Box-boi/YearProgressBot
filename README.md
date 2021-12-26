@@ -43,6 +43,13 @@ Features Nobody Asked For
 
 -------
 
+Why Does This Bot Exist?
+----------
+
+- This Bot/Script Exists With The Sole Purpose Of Reminding People(And Inducing Anxiety) Of The Passing Year. In A Futile Attempt Of Hoping That Another Year Doesn't Fly By Unnoticed
+
+-------
+
 ## **Warnings :**
 - This Bot/Script Uses GitHub Actions, Although Running One Lightweight Action Once In Three Days, Is In No Way Considered Abuse Of It. You Are Still Warned Of Account Suspension(If You Reduce The Cron-Job Frequency)(If You Already Have A Billion Other Consecutive GitHub Actions Running[Although GitHub Allows Only 20 Concurrent Jobs Per Account)
 
