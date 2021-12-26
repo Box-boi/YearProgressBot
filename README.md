@@ -3,7 +3,7 @@ YearProgressBot
 
 YearProgressBot, a simple bot to update the percentage of year passed to give anxiety to all who look at it, written in Bash, for Telegram.
 
-This Repo is highly inspired by RedL0tus/YearProgressBot, albeit it takes a completely different approach towards how the bot runs
+This Repo is highly inspired by [RedL0tus/YearProgressBot](https://github.com/RedL0tus/YearProgressBot), albeit it takes a completely different approach towards how the bot runs
 
 Deployment
 ----------
