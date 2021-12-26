@@ -17,9 +17,21 @@ TG_TOKEN : Your Telegram Bot Token, To Get This, Head Over To Telegram And Start
 GIT_EMAIL : Preferably Your Private GitHub Email, Get It From "Settings/Emails"-->Under The "Keep My Email Addresses Private". GIT_EMAIL Could also be your normal email.
 GIT_USERNAME : Preferably Your GitHub Username, Although It Could Be Anything
 ```
+2. Fill The Values In config.txt:
+- Example Of `CHAT_IDS`: CHAT_IDS="-1001642062053 -1001199512844 -1001387925474"
+- Example Of `LENGTH`: LENGTH=20
 
-2. Make Sure Actions Are Enabled In GitHub:
+3. Make Sure Actions Are Enabled In GitHub:
 - To Do This, Visit The "Actions" Tab Of Heroku
 - If Done Right, Your Bot Should Begin Sending Year Percentage Messages Every 3 Days!
+
+-------
+
+Common Issues
+----------
+
+- You Haven't Added The Bot In Your Channel
+- config.txt Isn't Populated With Incorrect Syntax
+- Your Git-Token Expired. Make Sure To Make A Token Of Infinite Duration
 
 -------
